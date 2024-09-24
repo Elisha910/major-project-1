@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+header {
+    background-color: skyblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header>nav>a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 10px;
+
+}
+
+.main-heading {
+    color: white;
+
+}
+
+.main-image {
+    height: 600px;
+    /* border: 5px solid red; */
+    background-image: url(https://thumbs.dreamstime.com/b/world-science-day-horizontal-banner-vector-illustration-design-259699946.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wsd-heading {
+    text-align: center;
+    background-color: lightgreen;
+    color: green;
+    font-size: 25px;
+}
+
+.wsd-list {
+    margin: 10px 30px;
+    list-style-type: none;
+}
+
+.wsd-section {
+    padding: 20px;
+}
+
+.scientists-section {
+    padding: 20px;
+}
+
+.scientist-card {
+    width: 200px;
+    height: fit-content;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.scientist-card>a>img {
+    width: 180px;
+
+}
+
+.scientists-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.sss-heading {
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+    margin: 10px;
+}
+
+.ses-heading {
+    background-color: lightgreen;
+    color: green;
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: skyblue;
+    height: 100px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
